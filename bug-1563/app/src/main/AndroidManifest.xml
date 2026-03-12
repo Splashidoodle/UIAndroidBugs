@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.lerk.lrkFM">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".LrkFMApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning" >
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="ratio_float" />
+
+        <activity
+            android:name=".activities.FileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+
+                <data android:pathPattern=".*\\.zip" />
+                <data android:pathPattern=".*\\..*\\.zip" />
+                <data android:pathPattern=".*\\..*\\..*\\.zip" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.zip" />
+                <!--
+                    Work around Android's ugly primitive PatternMatcher
+                    implementation that can't cope with finding a . early in
+                    the path unless it's explicitly matched.
+                -->
+                <data android:pathPattern=".*\\.7z" />
+                <data android:pathPattern=".*\\..*\\.7z" />
+                <data android:pathPattern=".*\\..*\\..*\\.7z" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.7z" />
+
+                <data android:pathPattern=".*\\.tar.gz" />
+                <data android:pathPattern=".*\\..*\\.tar.gz" />
+                <data android:pathPattern=".*\\..*\\..*\\.tar.gz" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.tar.gz" />
+
+                <data android:pathPattern=".*\\.rar" />
+                <data android:pathPattern=".*\\..*\\.rar" />
+                <data android:pathPattern=".*\\..*\\..*\\.rar" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.rar" />
+
+                <data android:pathPattern=".*\\.bz2" />
+                <data android:pathPattern=".*\\..*\\.bz2" />
+                <data android:pathPattern=".*\\..*\\..*\\.bz2" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.bz2" />
+
+                <data android:pathPattern=".*\\.gz" />
+                <data android:pathPattern=".*\\..*\\.gz" />
+                <data android:pathPattern=".*\\..*\\..*\\.gz" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.gz" />
+
+                <data android:pathPattern=".*\\.tar" />
+                <data android:pathPattern=".*\\..*\\.tar" />
+                <data android:pathPattern=".*\\..*\\..*\\.tar" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.tar" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.IntroActivity"
+            android:label="@string/title_activity_intro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_preference">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

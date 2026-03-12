@@ -1,0 +1,46 @@
+image: lerk/android-ci
+
+stages:
+  - build
+  - test
+  - artifacts
+
+before_script:
+  - ./gradlew clean
+
+build_no_tests:
+  stage: build
+  script:
+    - ./gradlew assemble
+
+build_with_tests_debug:
+  stage: test
+  script:
+    - ./gradlew build
+    - ./gradlew jacocoTestDebugUnitTestReport
+    - cat app/build/reports/jacoco/jacocoTestDebugUnitTestReport/html/index.html
+
+build_with_tests_release:
+  stage: test
+  script:
+    - ./gradlew build
+    - ./gradlew jacocoTestReleaseUnitTestReport
+    - cat app/build/reports/jacoco/jacocoTestReleaseUnitTestReport/html/index.html
+
+build_debug_artifacts:
+  stage: artifacts
+  script:
+    - ./gradlew assembleDebug
+  artifacts:
+    paths:
+      - app/build/outputs/apk/app-debug.apk
+
+build_signed_artifacts:
+  stage: artifacts
+  script:
+    - ./gradlew assembleRelease
+  artifacts:
+    paths:
+      - app/app-release.apk
+  only:
+    - tags

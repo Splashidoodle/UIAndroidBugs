@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId 'de.koelle.christian.trickytripper'
+        minSdkVersion 26
+        targetSdkVersion 33
+        versionCode 21
+        versionName '1.5.8'
+    }
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError true
+        warning 'InvalidPackage'
+    }
+    File signFile = rootProject.file('sign/keystore.properties')
+    if (signFile.exists()) {
+        Properties properties = new Properties()
+        properties.load(new FileInputStream(signFile))
+        signingConfigs {
+            //release {
+            //    storeFile rootProject.file(properties['keystore'])
+            //    storePassword properties['storePassword']
+            //    keyAlias properties['keyAlias']
+            //    keyPassword properties['keyPassword']
+            //}
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true // or dataBinding true
+    }
+
+    buildTypes {
+        debug {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+//        release {
+  //          zipAlignEnabled true
+    //        shrinkResources true
+      //      minifyEnabled true
+        //    proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+          //  signingConfig signingConfigs.release
+        //}
+    }
+    productFlavors {
+    }
+
+    testOptions {
+        unitTests.all {
+            // All the usual Gradle options.
+            //jvmArgs '-XX:MaxPermSize=256m'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs');
+    compile "com.android.support:appcompat-v7:$comAndroidSupport_supportV7Version";
+    compile "com.android.support:support-v4:$comAndroidSupport_supportV4Version"
+    compile "com.github.machinarius:preferencefragment:$comGithubMachinarius_preferenceFragmentVersion"
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    testCompile "junit:junit:$junitVersion"
+    testCompile "org.mockito:mockito-core:$orgMockitoMockitoCoreVersion"
+}

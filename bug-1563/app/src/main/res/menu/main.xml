@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item android:id="@+id/new_directory"
+            android:title="@string/new_directory"
+            app:showAsAction="never"/>
+        <item android:id="@+id/action_paste"
+            android:title="@string/action_paste"
+            app:showAsAction="never"
+            android:visible="false"/>
+        <item android:id="@+id/action_clear_op_context"
+            android:title="@string/action_clear_op_context"
+            app:showAsAction="never"
+            android:visible="false"/>
+        <item android:id="@+id/action_reload_view"
+            android:title="@string/action_reload_view"
+            app:showAsAction="never"/>
+    </group>
+    <group android:menuCategory="system">
+        <item android:id="@+id/settings"
+            android:orderInCategory="100"
+            android:title="@string/settings"
+            app:showAsAction="never" />
+    </group>
+</menu>

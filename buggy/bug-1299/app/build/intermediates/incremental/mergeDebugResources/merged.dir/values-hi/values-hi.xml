@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d नई सूचनाएं</item>
+    <item quantity="other">%d नई सूचनाएं</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="about_developer_title">बनाने वाले</string>
+    <string name="about_title">के बारे में</string>
+    <string name="about_translators_title">अनुवादक</string>
+    <string name="about_version_title">संस्करण</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="changelog_title">पिछले संस्करण से बदलाव</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"चालू करें"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"जब तक आप Google Play सेवाएं चालू नहीं करते, <ns1:g id="APP_NAME">%1$s</ns1:g> काम नहीं करेगा."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play सेवाएं चालू करें"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"इंस्टॉल करें"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play सेवाएं इंस्टॉल करें"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play सेवाएं उपलब्ध हैं"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play सेवाओं से जुड़ी गड़बड़ी"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"अपडेट करें"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play सेवाओं को अपडेट करें"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"फ़ोन पर खोलें"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"साइन इन करें"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google के ज़रिए साइन इन करें"</string>
+    <string msgid="3209159573327985035" name="copy">"कॉपी करें"</string>
+    <string name="database_dialog_title">आंकड़ा कोष</string>
+    <string name="database_export">आंकड़ा कोष निर्यात करें</string>
+    <string name="database_import">आंकड़ा कोष आयात करें</string>
+    <string name="database_reset">आंकड़ा कोष पुनः तैयार करें</string>
+    <string name="database_reset_message">आंकड़ा कोष मिटा दिया गया है</string>
+    <string name="database_reset_warning1">पुनः तैयारी पर सभी आंकड़े मिटा दिए जाएँगे। क्या आप यही चाहते हैं?</string>
+    <string name="database_reset_warning2">इस क्रिया को उल्टा नहीं जा सकता। एप्लिकेशन आंकड़ा कोष को साफ करने के बाद बंद हो जाएगी। क्या आप अभी भी यही चाहते हैं?</string>
+    <string name="dialog_cancel">रद्द करें</string>
+    <string name="dialog_close">बंद करें</string>
+    <string name="dialog_confirm">क्या आप यही चाहते हैं?</string>
+    <string name="dialog_import">आयात करें</string>
+    <string name="dialog_no">नहीं</string>
+    <string name="dialog_ok">ठीक</string>
+    <string name="dialog_save">सुरक्षित करें</string>
+    <string name="dialog_warning">चेतावनी</string>
+    <string name="dialog_yes">हां</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"बेहतर सेटिंग"</string>
+    <string name="export_complete">निर्यात सम्पूर्ण</string>
+    <string name="export_content_columns_all">खेत के सभी पत्रभाग</string>
+    <string name="export_content_traits_all">सारी विशेषताएँ</string>
+    <string name="export_error_data_missing">निर्यात करने के लिए कोई आंकड़े मौजूद नहीं है</string>
+    <string name="export_error_general">निर्यात के दौरान त्रुटि</string>
+    <string name="export_error_missing_format">निर्यात प्रकार चुनना जरूरी है</string>
+    <string name="export_file_name">फ़ाइल का नाम</string>
+    <string name="export_format_database">आंकड़ा कोष</string>
+    <string name="export_format_table">तालिका</string>
+    <string name="export_format_title">संरूप</string>
+    <string name="export_progress">निर्यात हो रहा है</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string name="field_book">फील्ड बुक</string>
+    <string name="fields_date_edited">संपादित करने की तारीख</string>
+    <string name="fields_date_imported">आयातित तारीख</string>
+    <string name="fields_load">ग्रहण करें</string>
+    <string name="fields_name">खेत का नाम</string>
+    <string name="fields_options">विकल्प</string>
+    <string name="fields_summary">खेत सारांश</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="import_dialog_importing">कृपया प्रतीक्षा करें...</string>
+    <string name="import_dialog_primary">प्राथमिक क्रम</string>
+    <string name="import_dialog_secondary">माध्यमिक क्रम</string>
+    <string name="import_dialog_unique">अद्वितीय पहचानकर्ता</string>
+    <string name="import_error_columns">पत्रभाग नामों में अवैध अक्षर</string>
+    <string name="import_error_general">आयात करने में त्रुटि</string>
+    <string name="import_error_unique">अद्वितीय पहचानकर्ता में नकल</string>
+    <string name="item_view_role_description">टैब</string>
+    <string name="main_infobar_data_missing">कोई आंकड़े नहीं</string>
+    <string name="main_toolbar_moveto">पहचानकर्ता पे जाएँ</string>
+    <string name="main_toolbar_moveto_no_match">नहीं मिला</string>
+    <string name="main_toolbar_next_entry_no_data">अगली खाली प्रविष्टि</string>
+    <string name="main_toolbar_resources">संसाधन</string>
+    <string name="main_toolbar_search">खोजें</string>
+    <string name="main_trait_details">विशेषता विस्तार</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$s पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">तारीख की मान्य सीमा से बाहर: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">\'दिन चुनना\' पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">\'साल चुनना\' पर स्विच करने के लिए टैप करें</string>
+    <string msgid="478774118347071097" name="not_set">"सेट नहीं है"</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" क्लिपबोर्ड पर कॉपी किया गया."</string>
+    <string name="preferences_appearance_language">भाषा</string>
+    <string name="preferences_appearance_tutorial">मदद सक्षम करें</string>
+    <string name="preferences_behavior_cycle_traits">पिछली विशेषता से आगे जाना अगली प्रविष्टि की पहली विशेषता पर ले जाता है</string>
+    <string name="preferences_general_feature_barcode_text">विशिष्ट अद्वितीय पहचानकर्ता पे जाने के लिए विकल्प को सक्षम करता है</string>
+    <string name="preferences_general_feature_next_missing">उपभोगता को बिना आंकड़े की अगली प्रविष्टि पर ले जाने के लिए बटन सक्षम करता है</string>
+    <string name="preferences_general_skip_entries_with_data">एकत्रित आंकड़ों वाली प्रविष्टियाँ छुपाएँ</string>
+    <string name="preferences_general_use_day_number">तारीख की जगह वर्ष के दिन का उपयोग करें</string>
+    <string name="preferences_sound_primary_order_sound">प्राथमिक क्रम में बदलाव होने पर अधिसूचना ध्वनि</string>
+    <string name="profile_location">निर्देशांक</string>
+    <string name="profile_location_get">स्थान पाएँ</string>
+    <string name="profile_location_latitude">अक्षरेखा</string>
+    <string name="profile_location_longitude">देशान्तर</string>
+    <string name="profile_location_title">स्थान स्थापित करें</string>
+    <string name="profile_name_first">प्रथम नाम</string>
+    <string name="profile_name_last">अंतिम नाम</string>
+    <string name="profile_person">व्यक्ति</string>
+    <string name="profile_person_title">व्यक्ति स्थापित करें</string>
+    <string name="profile_reset">सेटिंग मिटाएँ</string>
+    <string name="search_dialog_add">जोड़ें</string>
+    <string name="search_dialog_clear">मिटाएँ</string>
+    <string name="search_dialog_query_contains">में शामिल हो</string>
+    <string name="search_dialog_query_does_not_contain">में शामिल न हो</string>
+    <string name="search_dialog_query_is_equal_to">बराबर है</string>
+    <string name="search_dialog_query_is_less_than">कम है</string>
+    <string name="search_dialog_query_is_more_than">अधिक है</string>
+    <string name="search_dialog_query_is_not_equal_to">बराबर नहीं</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="search_results_dialog_plot">प्लाट</string>
+    <string name="search_results_dialog_range">कतार</string>
+    <string name="search_results_dialog_title">खोज नतीजे</string>
+    <string name="search_results_missing">खोज बेनतीजा रही</string>
+    <string name="settings_advanced">उच्च श्रेणी सेटिंग</string>
+    <string name="settings_export">निर्यात करें</string>
+    <string name="settings_fields">खेत</string>
+    <string name="settings_traits">विशेषताएँ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="trait_error_hardware_missing">आपके यंत्र में इस सुविधा के लिए आवश्यक हार्डवेयर नहीं है</string>
+    <string name="trait_error_maximum_value">प्रवेश किया मूल्य निर्धारित अधिकतम से ज़्यादा</string>
+    <string name="trait_error_minimum_value">प्रवेश किया मूल्य निर्धारित न्यूनतम से कम</string>
+    <string name="trait_error_photo_error">फोटो अध्ययन नहीं किया हो सकता</string>
+    <string name="trait_error_photo_missing">फोटो मौजूद नहीं है</string>
+    <string name="trait_layout_data_stored">आंकड़े सुरक्षित कर लिए गए है</string>
+    <string name="traits_create_categories_text">मदों को / से बाँटें</string>
+    <string name="traits_create_categories_title">श्रेणियाँ</string>
+    <string name="traits_create_details">विवरण</string>
+    <string name="traits_create_false">ग़लत</string>
+    <string name="traits_create_format">संरूप</string>
+    <string name="traits_create_optional">वैकल्पिक</string>
+    <string name="traits_create_photo_maximum">अधिक्तम फोटो संख्या</string>
+    <string name="traits_create_trait">विशेषता</string>
+    <string name="traits_create_true">सही</string>
+    <string name="traits_create_value_default">पूर्व निर्धारित</string>
+    <string name="traits_create_value_maximum">अधिकतम</string>
+    <string name="traits_create_value_minimum">न्यूनतम</string>
+    <string name="traits_create_warning_categories_required">श्रेणी खाली नहीं हो सकती</string>
+    <string name="traits_create_warning_duplicate">विशेषता पहले से मौजूद है</string>
+    <string name="traits_create_warning_name_blank">विशेषता नाम खाली नहीं हो सकता</string>
+    <string name="traits_create_warning_numeric_required">पूर्व निर्धारित, न्यूनतम, और अधिकतम संख्यावाचक होने चाहिए</string>
+    <string name="traits_format_audio">श्रव्य</string>
+    <string name="traits_format_boolean">बूलियन</string>
+    <string name="traits_format_categorical">श्रेणीगत</string>
+    <string name="traits_format_date">तारीख</string>
+    <string name="traits_format_numeric">संख्यावाचक</string>
+    <string name="traits_format_percent">प्रतिशत</string>
+    <string name="traits_format_photo">फोटो</string>
+    <string name="traits_format_text">मूलशब्द</string>
+    <string name="traits_options_copy">नकल करें</string>
+    <string name="traits_options_delete">मिटाएँ</string>
+    <string name="traits_options_delete_title">विशेषता मिटाएँ</string>
+    <string name="traits_toolbar_add_trait">विशेषता जोड़ें</string>
+    <string name="traits_toolbar_delete_all">सभी विशेषताएँ मिटाएँ</string>
+    <string name="tutorial_dialog_description">"क्या आप मदद सक्षम करना चाहते है? 'उच्च सेटिंग' में यह सेटिंग बदली जा सकती है।"</string>
+    <string name="tutorial_dialog_title">मदद</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"बंद"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"चालू"</string>
+    <string name="warning_field_before_traits">विशेषताएँ सिरजने से पहले खेत आयात होना जरूरी है।</string>
+    <string name="warning_field_missing">कोई खेत ग्रहण नहीं किया गया है। आंकड़े एकत्र करने से पहले कृपया खेत ग्रहण करें।</string>
+    <string name="warning_traits_missing">कोई विशेषता मौजूद नहीं है। कृपया आंकड़े एकत्र करने से पहले विशेषताओं का सिरजन करें।</string>
+    <string name="zxing_app_name">बारकोड स्कैनर</string>
+    <string name="zxing_button_ok">ठीक है</string>
+    <string name="zxing_msg_camera_framework_bug">क्षमा करें, Android कैमरा एक समस्या का सामना करना पड़ा. आप डिवाइस को पुनरारंभ करने की आवश्यकता हो सकती है.</string>
+    <string name="zxing_msg_default_status">दृश्यदर्शी आयत के अंदर एक बारकोड प्लेस इसे स्कैन.</string>
+</resources>

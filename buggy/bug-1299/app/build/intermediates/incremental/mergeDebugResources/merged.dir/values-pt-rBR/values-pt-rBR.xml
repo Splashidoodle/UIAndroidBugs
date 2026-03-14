@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nova notificação</item>
+    <item quantity="other">%d novas notificações</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="about_developer_title">Criadores</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_translators_title">Tradutores</string>
+    <string name="about_version_title">Versão</string>
+    <string name="bottomsheet_action_expand_halfway">Expandir até a metade</string>
+    <string name="changelog_title">Alterar registro</string>
+    <string name="character_counter_content_description">Caracteres inseridos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limite de %2$d caracteres excedido em %1$d</string>
+    <string name="clear_text_end_icon_content_description">Limpar texto</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ativar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com o Google Play Services ativado."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ativar o Google Play Services"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"O app <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Instalar o Google Play Services"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidade do Google Play Services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"O app <ns1:g id="APP_NAME">%1$s</ns1:g> está com problemas com o Google Play Services. Tente novamente."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"O app <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não é compatível com seu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Atualizar o Google Play Services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual está sendo atualizado no momento."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"É necessária uma nova versão do Google Play Services. Ele será atualizado em breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Fazer login"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Fazer login com o Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Copiar"</string>
+    <string name="database_dialog_title">Base de dados</string>
+    <string name="database_export">Exportar a base de dados</string>
+    <string name="database_import">Importar a base de dados</string>
+    <string name="database_reset">Redefinir o banco de dados</string>
+    <string name="database_reset_message">O banco de dados foi excluído</string>
+    <string name="database_reset_warning1">Todos os dados serão excluídos em Redefinir. Você tem certeza disso?</string>
+    <string name="database_reset_warning2">Essa ação não pode ser revertida. O aplicativo vai fechar depois de limpar o banco de dados. Você ainda deseja continuar?</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_close">Fechar</string>
+    <string name="dialog_confirm">Você tem certeza disso?</string>
+    <string name="dialog_import">Importar</string>
+    <string name="dialog_no">Não</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_save">Salvar</string>
+    <string name="dialog_warning">Aviso</string>
+    <string name="dialog_yes">Sim</string>
+    <string name="error_icon_content_description">Erro</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avançado"</string>
+    <string name="export_complete">Exportação completada</string>
+    <string name="export_content_columns_all">Todas as colunas do campo</string>
+    <string name="export_content_traits_all">Todos os caracteres</string>
+    <string name="export_error_data_missing">Não há dados para exportação</string>
+    <string name="export_error_general">Erro durante a exportação</string>
+    <string name="export_error_missing_format">Tipo de exportação precisa ser selecionado</string>
+    <string name="export_file_name">Nome do arquivo</string>
+    <string name="export_format_database">Base de dados</string>
+    <string name="export_format_table">Tabela</string>
+    <string name="export_format_title">Formato</string>
+    <string name="export_progress">Exportando...</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menu suspenso</string>
+    <string name="field_book">Caderno de campo</string>
+    <string name="fields_date_edited">Dados editados</string>
+    <string name="fields_date_imported">Dados importados</string>
+    <string name="fields_load">Carregar</string>
+    <string name="fields_name">Nome do campo</string>
+    <string name="fields_options">Opções</string>
+    <string name="fields_summary">Resumo do campo</string>
+    <string name="icon_content_description">Ícone de caixa de diálogo</string>
+    <string name="import_dialog_importing">Por favor aguarde...</string>
+    <string name="import_dialog_primary">Ordem primária</string>
+    <string name="import_dialog_secondary">ordem secundária</string>
+    <string name="import_dialog_unique">Identificador único</string>
+    <string name="import_error_columns">Os nomes das colunas contêm símbolos ilegais</string>
+    <string name="import_error_general">Erro na importação</string>
+    <string name="import_error_unique">Identificador único contém duplicatas</string>
+    <string name="item_view_role_description">Guia</string>
+    <string name="main_infobar_data_missing">Não há dados</string>
+    <string name="main_toolbar_moveto">Ir para ID</string>
+    <string name="main_toolbar_moveto_no_match">Nenhum valor correspondente</string>
+    <string name="main_toolbar_next_entry_no_data">Nova entrada de dados</string>
+    <string name="main_toolbar_resources">Recursos</string>
+    <string name="main_toolbar_search">Buscar</string>
+    <string name="main_trait_details">Detalhes do caractere</string>
+    <string name="material_clock_toggle_content_description">Selecionar AM ou PM</string>
+    <string name="material_hour_selection">Selecionar horário</string>
+    <string name="material_hour_suffix">%1$s em ponto</string>
+    <string name="material_minute_selection">Selecione os minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Alterne para o modo de relógio para informar o horário.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Selecionar horário</string>
+    <string name="material_timepicker_text_input_mode_description">Alterne para o modo de entrada de texto para informar o horário.</string>
+    <string name="mtrl_badge_numberless_content_description">Nova notificação</string>
+    <string name="mtrl_chip_close_icon_content_description">Remover %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Mais de %1$d novas notificações</string>
+    <string name="mtrl_picker_a11y_next_month">Alterar para o próximo mês</string>
+    <string name="mtrl_picker_a11y_prev_month">Alterar para o mês anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Seleção atual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecionar data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selecionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coluna de dias: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato inválido.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar %1$s</string>
+    <string name="mtrl_picker_invalid_range">Intervalo inválido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir para o ano %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fora do intervalo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de início – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Data de término</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecionar intervalo</string>
+    <string name="mtrl_picker_range_header_unselected">Data de início – Data de término</string>
+    <string name="mtrl_picker_save">Salvar</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de término</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de início</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Alternar para o modo de entrada da agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toque para alternar para a seleção de um dia</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Alternar para o modo de entrada de texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toque para alternar para a seleção de um ano</string>
+    <string msgid="478774118347071097" name="not_set">"Não definido"</string>
+    <string name="password_toggle_content_description">Exibir senha</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
+    <string name="preferences_appearance_language">Idioma</string>
+    <string name="preferences_appearance_tutorial">Habilitar tutorial</string>
+    <string name="preferences_behavior_cycle_traits">Avançando a partir do último caractere avança para primeiro caractere da próxima entrada</string>
+    <string name="preferences_general_feature_barcode_text">Habilitar opção para avançar para um identificador único</string>
+    <string name="preferences_general_feature_next_missing">Habilitar botão para o usuário prosseguir para uma próxima entrada de dados</string>
+    <string name="preferences_general_skip_entries_with_data">Esconder entradas com dados já coletados</string>
+    <string name="preferences_general_use_day_number">Use dia numérico do ano, em vez de data</string>
+    <string name="preferences_sound_primary_order_sound">Som de notificação muda quando ordem primária é alterada</string>
+    <string name="profile_location">Local</string>
+    <string name="profile_location_get">Obter localização</string>
+    <string name="profile_location_latitude">Latitude</string>
+    <string name="profile_location_longitude">Longitude</string>
+    <string name="profile_location_title">Definir local</string>
+    <string name="profile_name_first">Primeiro nome</string>
+    <string name="profile_name_last">Último nome</string>
+    <string name="profile_person">Usuário</string>
+    <string name="profile_person_title">Definir usuário</string>
+    <string name="profile_reset">Limpar configurações</string>
+    <string name="search_dialog_add">Adicionar</string>
+    <string name="search_dialog_clear">Limpar</string>
+    <string name="search_dialog_query_contains">contém</string>
+    <string name="search_dialog_query_does_not_contain">não contém</string>
+    <string name="search_dialog_query_is_equal_to">é igual a</string>
+    <string name="search_dialog_query_is_less_than">é menor que</string>
+    <string name="search_dialog_query_is_more_than">é maior que</string>
+    <string name="search_dialog_query_is_not_equal_to">não é igual a</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="search_results_dialog_plot">Parcela</string>
+    <string name="search_results_dialog_range">Fileira</string>
+    <string name="search_results_dialog_title">Resultados da busca</string>
+    <string name="search_results_missing">A busca não encontrou resultados</string>
+    <string name="settings_advanced">Configurações avançadas</string>
+    <string name="settings_export">Exportar</string>
+    <string name="settings_fields">Campos</string>
+    <string name="settings_traits">Caracteres</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="trait_error_hardware_missing">O dispositivo não contém o hardware necessário para esta função</string>
+    <string name="trait_error_maximum_value">O valor é maior do que o conjunto mínimo</string>
+    <string name="trait_error_minimum_value">O valor é menor do que o conjunto mínimo</string>
+    <string name="trait_error_photo_error">A foto não pode ser lida</string>
+    <string name="trait_error_photo_missing">A foto não existe</string>
+    <string name="trait_layout_data_stored">Os dados foram salvos</string>
+    <string name="traits_create_categories_text">Separar items com uma /</string>
+    <string name="traits_create_categories_title">Categorias</string>
+    <string name="traits_create_details">Detalhes</string>
+    <string name="traits_create_false">Falso</string>
+    <string name="traits_create_format">Formato</string>
+    <string name="traits_create_optional">Opcional</string>
+    <string name="traits_create_photo_maximum">Número máximo de fotos</string>
+    <string name="traits_create_trait">Caractere</string>
+    <string name="traits_create_true">Verdadeiro</string>
+    <string name="traits_create_value_default">Padrão</string>
+    <string name="traits_create_value_maximum">Máximo</string>
+    <string name="traits_create_value_minimum">Mínimo</string>
+    <string name="traits_create_warning_categories_required">Categoria não pode estar vazia</string>
+    <string name="traits_create_warning_duplicate">Esse caractere já existe</string>
+    <string name="traits_create_warning_name_blank">Nome do caractere não pode ser vazio</string>
+    <string name="traits_create_warning_numeric_required">Padrão, mínimo e máximo devem ser numéricos</string>
+    <string name="traits_format_audio">Áudio</string>
+    <string name="traits_format_boolean">Booliano</string>
+    <string name="traits_format_categorical">Categórico</string>
+    <string name="traits_format_date">Data</string>
+    <string name="traits_format_numeric">Numérico</string>
+    <string name="traits_format_percent">Percentagem</string>
+    <string name="traits_format_photo">Foto</string>
+    <string name="traits_format_text">Texto</string>
+    <string name="traits_options_copy">Copiar</string>
+    <string name="traits_options_delete">Excluir</string>
+    <string name="traits_options_delete_title">Excluir caractere</string>
+    <string name="traits_toolbar_add_trait">Adicionar um caractere</string>
+    <string name="traits_toolbar_delete_all">Excluir todos os caracteres</string>
+    <string name="tutorial_dialog_description">Você deseja habilitar o tutorial? Esta configuração pode ser alterada nas configurações avançadas.</string>
+    <string name="tutorial_dialog_title">Tutorial</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESATIVADO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ATIVADO"</string>
+    <string name="warning_field_before_traits">Um campo deve ser importado antes que um caractere possa ser criado.</string>
+    <string name="warning_field_missing">Nenhum campo está atualmente carregado. Por favor, coloque um campo antes de coletar dados.</string>
+    <string name="warning_traits_missing">Não existem caracteres. Por favor, crie caracteres antes de coletar dados.</string>
+</resources>

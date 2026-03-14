@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/res/values-sw720dp/dimens.xml",
+                    "from": {
+                        "startLines": "11,12,7,6,5,8,4,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "368,421,223,175,128,270,80,318",
+                        "endColumns": "52,52,46,47,46,47,47,48",
+                        "endOffsets": "416,469,265,218,170,313,123,362"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,161,208,256,303,351,399",
+                        "endColumns": "52,52,46,47,46,47,47,48",
+                        "endOffsets": "103,156,203,251,298,346,394,443"
+                    }
+                }
+            ]
+        }
+    ]
+}

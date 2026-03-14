@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="about_developer_title">Разработчики</string>
+    <string name="about_title">О программе</string>
+    <string name="about_translators_title">Переводчики</string>
+    <string name="about_version_title">Версия приложения</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="changelog_title">Внесенные изменения</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Доступность сервисов Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Повторите попытку."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string msgid="3209159573327985035" name="copy">"Копировать"</string>
+    <string name="database_dialog_title">База данных</string>
+    <string name="database_export">Экспорт базы данных</string>
+    <string name="database_import">Импорт базы данных</string>
+    <string name="database_reset">Восстановить исходную базу данных</string>
+    <string name="database_reset_message">База данных удалена</string>
+    <string name="database_reset_warning1">Все данные будут удалены при возвращении к исходным установкам. Продолжать?</string>
+    <string name="database_reset_warning2">Это действие нельзя отменить. Приложение закончит работу после удаления данных. Продолжать?</string>
+    <string name="dialog_cancel">Отменить</string>
+    <string name="dialog_close">Закрыть</string>
+    <string name="dialog_confirm">Вы уверены?</string>
+    <string name="dialog_import">Импорт</string>
+    <string name="dialog_no">Нет</string>
+    <string name="dialog_ok">Правильно</string>
+    <string name="dialog_save">Сохранить</string>
+    <string name="dialog_warning">Предупреждение</string>
+    <string name="dialog_yes">Да</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Дополнительно"</string>
+    <string name="export_complete">Экспорт завершен</string>
+    <string name="export_content_columns_all">Все рядки делянки</string>
+    <string name="export_content_traits_all">Все показатели</string>
+    <string name="export_error_data_missing">данные для экспорта не найдены</string>
+    <string name="export_error_general">Ошибка экспорта</string>
+    <string name="export_error_missing_format">Тип экспотрта должен быть выбран</string>
+    <string name="export_file_name">Название файла</string>
+    <string name="export_format_database">База данных</string>
+    <string name="export_format_table">Таблица</string>
+    <string name="export_format_title">Формат</string>
+    <string name="export_progress">Идет экспорт данных</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="field_book">Полевой журнал</string>
+    <string name="fields_date_edited">Отрадактироанная дата</string>
+    <string name="fields_date_imported">Импортированная дата</string>
+    <string name="fields_load">Загрузка</string>
+    <string name="fields_name">Обозначение делянки</string>
+    <string name="fields_options">Настройки</string>
+    <string name="fields_summary">Итоговая информация</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="import_dialog_importing">Пожалуйта, подождите ...</string>
+    <string name="import_dialog_primary">первичный порядок</string>
+    <string name="import_dialog_secondary">вторичный порядок</string>
+    <string name="import_dialog_unique">уникальный идентификатор</string>
+    <string name="import_error_columns">Название колонки содержит неразрешенные символы</string>
+    <string name="import_error_general">Ошибка импорта</string>
+    <string name="import_error_unique">Уникальный идентификатор содержит повторения</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="main_infobar_data_missing">Нет данных</string>
+    <string name="main_toolbar_moveto">Переход к ID</string>
+    <string name="main_toolbar_moveto_no_match">Показатель не соответсвует</string>
+    <string name="main_toolbar_next_entry_no_data">Следующие пропущенные данные</string>
+    <string name="main_toolbar_resources">Ресурсы</string>
+    <string name="main_toolbar_search">Поиск</string>
+    <string name="main_trait_details">Описываемый показатель</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string msgid="478774118347071097" name="not_set">"Не указано"</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Текст \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" скопирован в буфер обмена"</string>
+    <string name="preferences_appearance_language">Язык</string>
+    <string name="preferences_appearance_tutorial">Обучение разрешено</string>
+    <string name="preferences_behavior_cycle_traits">Переход от последнего показателя к первому показателю следующей группы данных</string>
+    <string name="preferences_general_feature_barcode_text">Дополнительные опции для уникального идентификаторас</string>
+    <string name="preferences_general_feature_next_missing">разрешить пользователю перейти к вводу отсутсвующих данных ???</string>
+    <string name="preferences_general_skip_entries_with_data">Скрыть введенные данные</string>
+    <string name="preferences_general_use_day_number">Использовать номер дня в году вместо даты</string>
+    <string name="preferences_sound_primary_order_sound">Звуковой сигнал сопровождает изменение основного порядка</string>
+    <string name="profile_location">Местоположение (координаты)</string>
+    <string name="profile_location_get">определить координаты</string>
+    <string name="profile_location_latitude">широта</string>
+    <string name="profile_location_longitude">долгота</string>
+    <string name="profile_location_title">Ввести местонахождение (координаты)</string>
+    <string name="profile_name_first">Имя</string>
+    <string name="profile_name_last">Фамилия</string>
+    <string name="profile_person">Пользователь</string>
+    <string name="profile_person_title">Ввести имя пользователя</string>
+    <string name="profile_reset">Удалить изменения настроек</string>
+    <string name="search_dialog_add">Добавить</string>
+    <string name="search_dialog_clear">Удалить</string>
+    <string name="search_dialog_query_contains">содержит</string>
+    <string name="search_dialog_query_does_not_contain">не содержит</string>
+    <string name="search_dialog_query_is_equal_to">равно</string>
+    <string name="search_dialog_query_is_less_than">меньше чем</string>
+    <string name="search_dialog_query_is_more_than">больше чем</string>
+    <string name="search_dialog_query_is_not_equal_to">не равно</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="search_results_dialog_plot">Делянка</string>
+    <string name="search_results_dialog_range">Полоса</string>
+    <string name="search_results_dialog_title">Результаты поиска</string>
+    <string name="search_results_missing">поиск не дал результатов</string>
+    <string name="settings_advanced">Дополнителные установки</string>
+    <string name="settings_export">Экспорт</string>
+    <string name="settings_fields">Поле</string>
+    <string name="settings_traits">Показатели</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="trait_error_hardware_missing">Ваше устройство не имеет технического обеспечения для выбранной функции</string>
+    <string name="trait_error_maximum_value">Значение больше установленного максимума</string>
+    <string name="trait_error_minimum_value">Значение меньше установленного минимума</string>
+    <string name="trait_error_photo_error">Фото не найдено</string>
+    <string name="trait_error_photo_missing">Ф</string>
+    <string name="trait_layout_data_stored">данные сохранены</string>
+    <string name="traits_create_categories_text">Отделить элементы перечня наклонной чертой /</string>
+    <string name="traits_create_categories_title">Категории</string>
+    <string name="traits_create_details">Дополнительная информация</string>
+    <string name="traits_create_false">Не правильно</string>
+    <string name="traits_create_format">Формат</string>
+    <string name="traits_create_optional">Необязательный</string>
+    <string name="traits_create_photo_maximum">Максимальное количество фотоснимков</string>
+    <string name="traits_create_trait">Показатель</string>
+    <string name="traits_create_true">Правильно</string>
+    <string name="traits_create_value_default">значение по умолчанию</string>
+    <string name="traits_create_value_maximum">максимум</string>
+    <string name="traits_create_value_minimum">минимум</string>
+    <string name="traits_create_warning_categories_required">Поле не может оставаться не заполненным</string>
+    <string name="traits_create_warning_duplicate">Название показателя уже существует</string>
+    <string name="traits_create_warning_name_blank">Название признака не введено</string>
+    <string name="traits_create_warning_numeric_required">Значение по умолчанию, минимальное и максимальное должны быть числовыми</string>
+    <string name="traits_format_audio">Звук</string>
+    <string name="traits_format_boolean">Булев</string>
+    <string name="traits_format_categorical">качественный</string>
+    <string name="traits_format_date">Дата</string>
+    <string name="traits_format_numeric">количественный (цифровой)</string>
+    <string name="traits_format_percent">Проценты</string>
+    <string name="traits_format_photo">Фото</string>
+    <string name="traits_format_text">Текст</string>
+    <string name="traits_options_copy">Копировать</string>
+    <string name="traits_options_delete">Удалить</string>
+    <string name="traits_options_delete_title">Удалить показатель</string>
+    <string name="traits_toolbar_add_trait">добавить показатель</string>
+    <string name="traits_toolbar_delete_all">Удалить все показатели</string>
+    <string name="tutorial_dialog_description">Включить обучение? Эта Настройка может быть изменена в меню Дополнительные настройки</string>
+    <string name="tutorial_dialog_title">Обучение</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ВКЛ."</string>
+    <string name="warning_field_before_traits">Перед тем как ввести показатели, поле должно быть импортировано</string>
+    <string name="warning_field_missing">Поле не введено. Введите поле перед тем как начать сбор данных</string>
+    <string name="warning_traits_missing">Показатели не введены. Введите показатели перед тем как начать сбор данных</string>
+    <string name="zxing_app_name">Сканер штрих-кодов</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">К сожалению, возникла ошибка камеры. Может потребоваться перезагрузить устройство.</string>
+    <string name="zxing_msg_default_status">Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя.</string>
+</resources>

@@ -1,0 +1,519 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fieldbook.tracker"
+4    android:versionCode="433"
+5    android:versionName="4.3.3" >
+6
+7    <uses-sdk
+7-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:20:5-73
+8        android:minSdkVersion="16"
+8-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:20:5-73
+9        android:targetSdkVersion="29" />
+9-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:20:5-73
+10
+11    <uses-feature
+11-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:6:5-8:36
+12        android:name="android.hardware.location"
+12-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:7:9-49
+13        android:required="false" />
+13-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:8:9-33
+14
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:10:5-81
+15-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:11:5-80
+16-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:12:5-81
+17-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:13:5-79
+18-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:14:5-67
+19-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:15:5-79
+20-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:16:5-71
+21-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:16:22-68
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:17:5-65
+22-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:17:22-62
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:18:5-78
+23-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:18:22-75
+24
+25    <supports-screens
+25-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:22:5-27:40
+26        android:anyDensity="true"
+26-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:23:9-34
+27        android:largeScreens="true"
+27-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:24:9-36
+28        android:normalScreens="true"
+28-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:25:9-37
+29        android:smallScreens="true"
+29-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:26:9-36
+30        android:xlargeScreens="true" />
+30-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:27:9-37
+31    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.camera"
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+36        android:name="android.hardware.camera.front"
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+37        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+38    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+40        android:name="android.hardware.camera.autofocus"
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+43        android:name="android.hardware.camera.flash"
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+46        android:name="android.hardware.screen.landscape"
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+49        android:name="android.hardware.wifi"
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+51
+52    <uses-permission android:name="android.permission.WAKE_LOCK" />
+52-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:25:5-68
+52-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:25:22-65
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+53-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:26:22-107
+54    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+54-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+54-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+55
+56    <application
+56-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:29:5-156:19
+57        android:name="androidx.multidex.MultiDexApplication"
+57-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:30:9-61
+58        android:allowBackup="true"
+58-->[com.h6ah4i.android.widget:numberpickercompat:1.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e046d82bf633945d09e024cc010beacc/jetified-numberpickercompat-1.0.0/AndroidManifest.xml:12:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/2ff5fa7cac6c84fd0c9b95e2307f5f5c/core-1.6.0/AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:hardwareAccelerated="true"
+61-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:31:9-43
+62        android:icon="@mipmap/ic_launcher"
+62-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:32:9-43
+63        android:label="@string/field_book"
+63-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:33:9-43
+64        android:largeHeap="true"
+64-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:34:9-33
+65        android:requestLegacyExternalStorage="true"
+65-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:35:9-52
+66        android:supportsRtl="true" >
+66-->[com.h6ah4i.android.widget:numberpickercompat:1.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e046d82bf633945d09e024cc010beacc/jetified-numberpickercompat-1.0.0/AndroidManifest.xml:13:9-35
+67        <activity
+67-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:37:9-47:20
+68            android:name="com.fieldbook.tracker.activities.ConfigActivity"
+68-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:38:13-54
+69            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+69-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:39:13-81
+70            android:launchMode="singleTop"
+70-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:40:13-43
+71            android:screenOrientation="portrait"
+71-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:41:13-49
+72            android:theme="@style/AppTheme" >
+72-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:42:13-44
+73            <intent-filter>
+73-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:43:13-46:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:44:17-69
+74-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:44:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:45:17-77
+76-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:45:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:48:9-54:67
+80            android:name="com.fieldbook.tracker.activities.CollectActivity"
+80-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:49:13-55
+81            android:configChanges="keyboardHidden|orientation|screenSize|locale|keyboard"
+81-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:50:13-90
+82            android:launchMode="singleTop"
+82-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:51:13-43
+83            android:screenOrientation="portrait"
+83-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:52:13-49
+84            android:theme="@style/AppTheme"
+84-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:53:13-44
+85            android:windowSoftInputMode="adjustPan|stateHidden" />
+85-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:54:13-64
+86        <activity
+86-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:55:9-60:58
+87            android:name="com.fieldbook.tracker.activities.SearchActivity"
+87-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:56:13-54
+88            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+88-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:57:13-81
+89            android:launchMode="singleTop"
+89-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:58:13-43
+90            android:theme="@style/ActivityDialog"
+90-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:59:13-50
+91            android:windowSoftInputMode="adjustResize" />
+91-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:60:13-55
+92        <activity
+92-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:61:9-65:53
+93            android:name="com.fieldbook.tracker.activities.DatagridActivity"
+93-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:62:13-56
+94            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+94-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:63:13-81
+95            android:launchMode="singleTop"
+95-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:64:13-43
+96            android:theme="@style/ActivityDialog" />
+96-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:65:13-50
+97        <activity
+97-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:66:9-71:47
+98            android:name="com.fieldbook.tracker.activities.BrapiActivity"
+98-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:67:13-53
+99            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+99-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:68:13-81
+100            android:launchMode="singleTop"
+100-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:69:13-43
+101            android:screenOrientation="portrait"
+101-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:70:13-49
+102            android:theme="@style/AppTheme" />
+102-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:71:13-44
+103        <activity
+103-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:72:9-77:47
+104            android:name="com.fieldbook.tracker.activities.BrapiTraitActivity"
+104-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:73:13-58
+105            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+105-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:74:13-81
+106            android:launchMode="singleTop"
+106-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:75:13-43
+107            android:screenOrientation="portrait"
+107-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:76:13-49
+108            android:theme="@style/AppTheme" />
+108-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:77:13-44
+109        <activity
+109-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:78:9-82:53
+110            android:name="com.fieldbook.tracker.activities.FileExploreActivity"
+110-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:79:13-59
+111            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+111-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:80:13-81
+112            android:launchMode="singleTop"
+112-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:81:13-43
+113            android:theme="@style/ActivityDialog" />
+113-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:82:13-50
+114        <activity
+114-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:83:9-91:53
+115            android:name="com.fieldbook.tracker.activities.TraitEditorActivity"
+115-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:84:13-59
+116            android:alwaysRetainTaskState="false"
+116-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:85:13-50
+117            android:configChanges="keyboardHidden|orientation"
+117-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:86:13-63
+118            android:finishOnTaskLaunch="true"
+118-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:87:13-46
+119            android:launchMode="singleTop"
+119-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:88:13-43
+120            android:screenOrientation="portrait"
+120-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:90:13-49
+121            android:theme="@style/AppThemeAction"
+121-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:91:13-50
+122            android:windowSoftInputMode="adjustResize" />
+122-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:89:13-55
+123        <activity
+123-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:92:9-99:53
+124            android:name="com.fieldbook.tracker.activities.FieldEditorActivity"
+124-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:93:13-59
+125            android:alwaysRetainTaskState="false"
+125-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:94:13-50
+126            android:configChanges="keyboardHidden|orientation"
+126-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:95:13-63
+127            android:finishOnTaskLaunch="true"
+127-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:96:13-46
+128            android:launchMode="singleTop"
+128-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:97:13-43
+129            android:screenOrientation="portrait"
+129-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:98:13-49
+130            android:theme="@style/AppThemeAction" />
+130-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:99:13-50
+131        <activity
+131-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:100:9-103:69
+132            android:name="com.fieldbook.tracker.activities.AboutActivity"
+132-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:101:13-53
+133            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+133-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:102:13-81
+134            android:theme="@style/AppTheme.MaterialAboutActivity" />
+134-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:103:13-66
+135        <activity
+135-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:104:9-121:20
+136            android:name="com.fieldbook.tracker.preferences.PreferencesActivity"
+136-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:105:13-60
+137            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+137-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:106:13-81
+138            android:launchMode="singleTop"
+138-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:107:13-43
+139            android:screenOrientation="portrait"
+139-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:108:13-49
+140            android:theme="@style/AppThemeAction" >
+140-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:109:13-50
+141            <intent-filter>
+141-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:110:13-120:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:111:17-69
+142-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:111:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:113:17-76
+144-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:113:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:114:17-78
+145-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:114:27-75
+146
+147                <data
+147-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:116:17-119:54
+148                    android:host=""
+148-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:117:21-36
+149                    android:scheme="fieldbook" /> <!-- https://stackoverflow.com/questions/48093833/deeplink-empty-path-error-androidpath-cannot-be-empty -->
+149-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:118:21-47
+150            </intent-filter>
+151        </activity>
+152        <activity
+152-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:122:9-138:20
+153            android:name="com.fieldbook.tracker.activities.BrapiExportActivity"
+153-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:123:13-59
+154            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+154-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:124:13-81
+155            android:launchMode="singleTop"
+155-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:125:13-43
+156            android:screenOrientation="portrait"
+156-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:126:13-49
+157            android:theme="@style/AppTheme" >
+157-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:127:13-44
+158            <intent-filter>
+158-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:128:13-137:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:111:17-69
+159-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:111:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:113:17-76
+161-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:113:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:114:17-78
+162-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:114:27-75
+163
+164                <data
+164-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:116:17-119:54
+165                    android:host="export"
+165-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:117:21-36
+166                    android:scheme="fieldbook" />
+166-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:118:21-47
+167            </intent-filter>
+168        </activity>
+169        <activity
+169-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:141:9-145:57
+170            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+170-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:142:13-74
+171            android:clearTaskOnLaunch="true"
+171-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+172            android:screenOrientation="portrait"
+172-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:143:13-49
+173            android:stateNotNeeded="true"
+173-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:144:13-42
+174            android:theme="@style/zxing_CaptureTheme"
+174-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+175            android:windowSoftInputMode="stateAlwaysHidden" />
+175-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/be60c5d90fbdbb790ac62b7c5cf7eaec/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+176
+177        <provider
+177-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:147:9-155:20
+178            android:name="com.fieldbook.tracker.provider.GenericFileProvider"
+178-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:148:13-57
+179            android:authorities="com.fieldbook.tracker.fileprovider"
+179-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:149:13-69
+180            android:exported="false"
+180-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:150:13-37
+181            android:grantUriPermissions="true" >
+181-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:151:13-47
+182            <meta-data
+182-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:152:13-154:58
+183                android:name="android.support.FILE_PROVIDER_PATHS"
+183-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:153:17-67
+184                android:resource="@xml/provider_paths" />
+184-->/Volumes/Dumpy/UIAndroidDataset/Test/buggy/bug-1299/app/src/main/AndroidManifest.xml:154:17-55
+185        </provider>
+186
+187        <activity
+187-->[pub.devrel:easypermissions:3.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/0137ad74d54e8a178c1040ff75fae520/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+188            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+188-->[pub.devrel:easypermissions:3.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/0137ad74d54e8a178c1040ff75fae520/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+189            android:exported="false"
+189-->[pub.devrel:easypermissions:3.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/0137ad74d54e8a178c1040ff75fae520/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+190            android:label=""
+190-->[pub.devrel:easypermissions:3.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/0137ad74d54e8a178c1040ff75fae520/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+191            android:theme="@style/EasyPermissions.Transparent" />
+191-->[pub.devrel:easypermissions:3.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/0137ad74d54e8a178c1040ff75fae520/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+192        <activity android:name="com.michaelflisar.changelog.internal.ChangelogActivity" />
+192-->[com.github.MFlisar:changelog:1.1.6] /Users/splash/.gradle/caches/transforms-2/files-2.1/08f842831e662f7c85b8cbf370bc9efe/jetified-changelog-1.1.6/AndroidManifest.xml:10:9-91
+192-->[com.github.MFlisar:changelog:1.1.6] /Users/splash/.gradle/caches/transforms-2/files-2.1/08f842831e662f7c85b8cbf370bc9efe/jetified-changelog-1.1.6/AndroidManifest.xml:10:19-88
+193        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity" />
+193-->[com.mikepenz:aboutlibraries:6.2.3] /Users/splash/.gradle/caches/transforms-2/files-2.1/cfe0611a4a5dcd56db995216c87100ce/jetified-aboutlibraries-6.2.3/AndroidManifest.xml:12:9-80
+193-->[com.mikepenz:aboutlibraries:6.2.3] /Users/splash/.gradle/caches/transforms-2/files-2.1/cfe0611a4a5dcd56db995216c87100ce/jetified-aboutlibraries-6.2.3/AndroidManifest.xml:12:19-77
+194
+195        <service
+195-->[com.google.firebase:firebase-crashlytics:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/848d26fc49bf76b1e8ecb6f9cec5ecae/jetified-firebase-crashlytics-17.0.0/AndroidManifest.xml:13:9-19:19
+196            android:name="com.google.firebase.components.ComponentDiscoveryService"
+196-->[com.google.firebase:firebase-crashlytics:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/848d26fc49bf76b1e8ecb6f9cec5ecae/jetified-firebase-crashlytics-17.0.0/AndroidManifest.xml:14:13-84
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:19.3.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e1e4bf9e49e141d49c07046f20ac33b0/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-crashlytics:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/848d26fc49bf76b1e8ecb6f9cec5ecae/jetified-firebase-crashlytics-17.0.0/AndroidManifest.xml:15:13-37
+199            <meta-data
+199-->[com.google.firebase:firebase-crashlytics:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/848d26fc49bf76b1e8ecb6f9cec5ecae/jetified-firebase-crashlytics-17.0.0/AndroidManifest.xml:16:13-18:85
+200                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+200-->[com.google.firebase:firebase-crashlytics:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/848d26fc49bf76b1e8ecb6f9cec5ecae/jetified-firebase-crashlytics-17.0.0/AndroidManifest.xml:17:17-115
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-crashlytics:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/848d26fc49bf76b1e8ecb6f9cec5ecae/jetified-firebase-crashlytics-17.0.0/AndroidManifest.xml:18:17-82
+202            <meta-data
+202-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/7a85ab8d0ed74cec2934a85d1c8a2908/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:30:13-32:85
+203                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+203-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/7a85ab8d0ed74cec2934a85d1c8a2908/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:31:17-139
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/7a85ab8d0ed74cec2934a85d1c8a2908/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:32:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+206                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+206-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-installations:16.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/c15d43045a1e31892f91c1c5b69fffa8/jetified-firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+209                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+209-->[com.google.firebase:firebase-installations:16.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/c15d43045a1e31892f91c1c5b69fffa8/jetified-firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-installations:16.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/c15d43045a1e31892f91c1c5b69fffa8/jetified-firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+211        </service>
+212
+213        <receiver
+213-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:29:9-33:20
+214            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+214-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:30:13-85
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:31:13-35
+216            android:exported="false" >
+216-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:32:13-37
+217        </receiver>
+218
+219        <service
+219-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:35:9-38:40
+220            android:name="com.google.android.gms.measurement.AppMeasurementService"
+220-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:36:13-84
+221            android:enabled="true"
+221-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:37:13-35
+222            android:exported="false" />
+222-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:38:13-37
+223        <service
+223-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:39:9-43:72
+224            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+224-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:40:13-87
+225            android:enabled="true"
+225-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:41:13-35
+226            android:exported="false"
+226-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:42:13-37
+227            android:permission="android.permission.BIND_JOB_SERVICE" />
+227-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/8431ec2d5d3229ec02dad9fe9a42cbd0/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:43:13-69
+228
+229        <receiver
+229-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+230            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+230-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+231            android:exported="true"
+231-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+232            android:permission="com.google.android.c2dm.permission.SEND" >
+232-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+233            <intent-filter>
+233-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+234                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+234-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+234-->[com.google.firebase:firebase-iid:20.1.5] /Users/splash/.gradle/caches/transforms-2/files-2.1/ebd3b03247cb45f7e662f4c62ab18e10/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+235            </intent-filter>
+236        </receiver>
+237
+238        <provider
+238-->[com.google.firebase:firebase-common:19.3.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e1e4bf9e49e141d49c07046f20ac33b0/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+239            android:name="com.google.firebase.provider.FirebaseInitProvider"
+239-->[com.google.firebase:firebase-common:19.3.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e1e4bf9e49e141d49c07046f20ac33b0/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+240            android:authorities="com.fieldbook.tracker.firebaseinitprovider"
+240-->[com.google.firebase:firebase-common:19.3.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e1e4bf9e49e141d49c07046f20ac33b0/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+241            android:exported="false"
+241-->[com.google.firebase:firebase-common:19.3.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e1e4bf9e49e141d49c07046f20ac33b0/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+242            android:initOrder="100" />
+242-->[com.google.firebase:firebase-common:19.3.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/e1e4bf9e49e141d49c07046f20ac33b0/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+243
+244        <activity
+244-->[com.google.android.gms:play-services-base:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/5dd4f4f5b73000d54d42e77523127a4e/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+245            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+245-->[com.google.android.gms:play-services-base:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/5dd4f4f5b73000d54d42e77523127a4e/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+246            android:exported="false"
+246-->[com.google.android.gms:play-services-base:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/5dd4f4f5b73000d54d42e77523127a4e/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+247            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+247-->[com.google.android.gms:play-services-base:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/5dd4f4f5b73000d54d42e77523127a4e/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+248
+249        <meta-data
+249-->[com.google.android.gms:play-services-basement:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/4563abc8146ff31fd4e9c58cd6fa19c8/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+250            android:name="com.google.android.gms.version"
+250-->[com.google.android.gms:play-services-basement:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/4563abc8146ff31fd4e9c58cd6fa19c8/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+251            android:value="@integer/google_play_services_version" />
+251-->[com.google.android.gms:play-services-basement:17.0.0] /Users/splash/.gradle/caches/transforms-2/files-2.1/4563abc8146ff31fd4e9c58cd6fa19c8/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+252
+253        <service
+253-->[com.google.android.datatransport:transport-backend-cct:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f977c0a74fdfdf00551fde039817ea99/jetified-transport-backend-cct-2.2.1/AndroidManifest.xml:29:9-35:19
+254            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+254-->[com.google.android.datatransport:transport-backend-cct:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f977c0a74fdfdf00551fde039817ea99/jetified-transport-backend-cct-2.2.1/AndroidManifest.xml:30:13-103
+255            android:exported="false" >
+255-->[com.google.android.datatransport:transport-backend-cct:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f977c0a74fdfdf00551fde039817ea99/jetified-transport-backend-cct-2.2.1/AndroidManifest.xml:31:13-37
+256            <meta-data
+256-->[com.google.android.datatransport:transport-backend-cct:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f977c0a74fdfdf00551fde039817ea99/jetified-transport-backend-cct-2.2.1/AndroidManifest.xml:32:13-34:39
+257                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+257-->[com.google.android.datatransport:transport-backend-cct:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f977c0a74fdfdf00551fde039817ea99/jetified-transport-backend-cct-2.2.1/AndroidManifest.xml:33:17-94
+258                android:value="cct" />
+258-->[com.google.android.datatransport:transport-backend-cct:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f977c0a74fdfdf00551fde039817ea99/jetified-transport-backend-cct-2.2.1/AndroidManifest.xml:34:17-36
+259        </service>
+260        <service
+260-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:26:9-30:19
+261            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+261-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:27:13-117
+262            android:exported="false"
+262-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:28:13-37
+263            android:permission="android.permission.BIND_JOB_SERVICE" >
+263-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:29:13-69
+264        </service>
+265
+266        <receiver
+266-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:32:9-34:40
+267            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+267-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:33:13-132
+268            android:exported="false" />
+268-->[com.google.android.datatransport:transport-runtime:2.2.1] /Users/splash/.gradle/caches/transforms-2/files-2.1/f4a2c6c35bbf68038acd73ca787548b4/jetified-transport-runtime-2.2.1/AndroidManifest.xml:34:13-37
+269    </application>
+270
+271</manifest>

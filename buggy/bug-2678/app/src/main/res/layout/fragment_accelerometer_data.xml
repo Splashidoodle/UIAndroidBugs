@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/accelerometer_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:context="io.pslab.activity.AccelerometerActivity">
+
+        <fragment
+            android:id="@+id/accelerometer_x_axis_fragment"
+            android:name="io.pslab.fragment.AccelerometerViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/accelerometer_fragment_height"
+            android:layout_marginBottom="@dimen/accelerometer_fragment_margint"
+            tools:layout="@layout/accelerometer_list_item" />
+
+        <fragment
+            android:id="@+id/accelerometer_y_axis_fragment"
+            android:name="io.pslab.fragment.AccelerometerViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/accelerometer_fragment_height"
+            android:layout_marginBottom="@dimen/accelerometer_fragment_margint"
+            tools:layout="@layout/accelerometer_list_item" />
+
+        <fragment
+            android:id="@+id/accelerometer_z_axis_fragment"
+            android:name="io.pslab.fragment.AccelerometerViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/accelerometer_fragment_height"
+            android:layout_marginBottom="@dimen/accelerometer_fragment_margint"
+            tools:layout="@layout/accelerometer_list_item" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":433,"versionName":"4.3.3","enabled":true,"outputFile":"debug-4.3.3.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.fieldbook.tracker","split":"","minSdkVersion":"16"}}]

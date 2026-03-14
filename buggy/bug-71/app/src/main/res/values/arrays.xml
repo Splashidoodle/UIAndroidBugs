@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="themesEntries">
+        <item>Light theme</item>
+        <item>Semi-transparent theme</item>
+        <item>Transparent theme</item>
+        <item>Dark theme</item>
+        <item>Dark semi-transparent theme</item>
+        <item>Dark transparent theme</item>
+        <item>AMOLED dark theme</item>
+    </string-array>
+    <string-array name="themesValues" translatable="false">
+        <item>light</item>
+        <item>semi-transparent</item>
+        <item>transparent</item>
+        <item>dark</item>
+        <item>semi-transparent-dark</item>
+        <item>transparent-dark</item>
+        <item>amoled-dark</item>
+    </string-array>
+    <string-array name="historyModeEntries">
+        <item>Accessed recently first</item>
+        <item>Accessed frequently recently</item>
+        <item>Accessed frequently</item>
+        <item>Adapted to user usage</item>
+    </string-array>
+    <string-array name="historyModeValues" translatable="false">
+        <item>recency</item>
+        <item>frecency</item>
+        <item>frequency</item>
+        <item>adaptive</item>
+    </string-array>
+    <string-array name="defaultSearchProviders" tools:ignore="InconsistentArrays">
+        <item>Bing|https://www.bing.com/search?q=%s</item>
+        <item>Ecosia|https://www.ecosia.org/search?q=%s</item>
+        <item>DuckDuckGo|https://start.duckduckgo.com/?q=%s</item>
+        <item>Google|https://encrypted.google.com/search?q=%s</item>
+        <item>Google Maps|https://www.google.com/maps/search/?api=1&amp;query=%s</item>
+        <item>Google Play Store|https://play.google.com/store/search?q=%s</item>
+        <item>YouTube|https://www.youtube.com/results?search_query=%s</item>
+    </string-array>
+    <string-array name="toggleTagsDefault">
+    </string-array>
+    <string-array name="favTagsDefault">
+    </string-array>
+    <string-array name="gestureEntries">
+        <item>Do nothing</item>
+        <item>Display keyboard</item>
+        <item>Display notification shade</item>
+        <item>Display apps list</item>
+        <item>Display history</item>
+    </string-array>
+    <string-array name="gestureValues" translatable="false">
+        <item>do-nothing</item>
+        <item>display-keyboard</item>
+        <item>display-notifications</item>
+        <item>display-apps</item>
+        <item>display-history</item>
+    </string-array>
+</resources>

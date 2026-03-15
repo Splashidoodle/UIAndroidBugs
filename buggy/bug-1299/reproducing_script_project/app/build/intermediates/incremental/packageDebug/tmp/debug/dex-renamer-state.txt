@@ -1,0 +1,4 @@
+#Sun Mar 01 19:23:13 EST 2026
+base.0=/Users/splash/UIProgramRepair/ReproducingScripts/app/reproducing_script_project/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
